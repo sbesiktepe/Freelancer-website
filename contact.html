@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Freelancer</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header id="header__inner">
+      <div class="container">
+        <nav class="main-nav">
+          <img src="img/logo.png" alt="" />
+          <ul class="main-nav__items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="contact__a">
+      <div class="container">
+        <h1 class="section-title">Contact Me</h1>
+        <div class="border-bottom"></div>
+        <p class="lead">Lorem ipsum dolor sit.</p>
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/xvonqvlj"
+          method="POST"
+        >
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name"
+            class="fullname"
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            class="email"
+          />
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="Subject"
+            class="subject"
+          />
+          <input
+            type="phone"
+            name="phone"
+            id="phone"
+            placeholder="Phone"
+            class="phone"
+          />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Enter the Message"
+            class="message"
+          ></textarea>
+          <input type="submit" class="btn-primary button" />
+        </form>
+      </div>
+    </section>
+
+    <section id="contact__b">
+      <div class="container">
+        <div class="contact-info">
+          <div>
+            <ul>
+              <li><i class="fas fa-envelope fa-2x"></i></li>
+              <li><h2>Email</h2></li>
+              <li>mail@gmail.com</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><i class="fas fa-phone fa-2x"></i></li>
+              <li><h2>Phone</h2></li>
+              <li>(555) 555 55 55</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><i class="fas fa-address-card fa-2x"></i></li>
+              <li>
+                <h2>Address</h2>
+              </li>
+              <li>Istanbul, Turkiye</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="main-footer">
+      <div class="container">
+        <nav class="footer-nav">
+          <p>Copyright & 2025. All Rights Reserved.</p>
+          <ul class="social">
+            <li><i class="fab fa-facebook"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-youtube"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
